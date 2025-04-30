@@ -10,12 +10,9 @@ export const FavouritesContext = createContext({
 const FavouriteContextProvider = ({ children }) => {
   const [favMealIds, setFavMealIds] = useState([]);
   const addFavourites = (id) => {
-    console.log('add', favMealIds, id);
-
     setFavMealIds((favMealIds) => {
       return [...favMealIds, id];
     });
-    // console.log(favMealIds, id);
   };
   const removeFavourites = (id) => {
     setFavMealIds((favMealIds) => {

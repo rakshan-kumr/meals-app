@@ -50,7 +50,7 @@ const MealsDetailsScreen = ({ route }) => {
   }, [navigation, id, favContext]);
 
   return (
-    <ScrollView>
+    <ScrollView style={styles.rootContainer}>
       <Image source={{ uri: imageUrl }} style={styles.image} />
       <Text style={styles.title}>{title}</Text>
       <MealAttributes

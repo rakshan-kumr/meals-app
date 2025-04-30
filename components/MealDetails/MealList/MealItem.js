@@ -1,7 +1,7 @@
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
-import MealAttributes from './MealAttributes';
+import MealAttributes from '../../MealAttributes';
 
 const MealItem = ({
   id,
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: 200,
+    height: 100,
   },
   title: { fontSize: 20, fontWeight: 'bold', textAlign: 'center', margin: 10 },
 });
