@@ -79,10 +79,6 @@ The project uses the following key dependencies:
 
 For a full list of dependencies, see the [`package.json`](package.json) file.
 
-## Screenshots
-
-Add screenshots of your app here to showcase its features.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
